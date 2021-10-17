@@ -22,8 +22,13 @@
 
  // the array values are unique, no duplicate values in the array
 const updateValue = function (array,index,value) {
-    let n = [10, 20, 30];
-     console.log(`there is no element to updated in this index ${n}`);
+    if (array.lenght <= index){
+      return "there is no element to updated in this index"
+    }
+    else{
+      array[index] = value ;
+      return array; 
+    }
   };
   
   /* updateValue([10, 20, 30], 3, 50); // => "there is no element to updated in this index"
