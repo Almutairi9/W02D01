@@ -3,7 +3,7 @@
 const greet = function(){
     console.log("Hello");
 };
-
+ 
 greet(); /* return  or call fun */
 
 const greet_2 = function(){
@@ -93,7 +93,7 @@ const findFactorial = function(num)
         /* console.log(Math.round(number)); */
         return round ;
     }
-      
+       
       /* round(5); // => 5
       round(2.4); // => 2
       round(0.8); // => 1
@@ -142,22 +142,14 @@ const randomNumber = function () {
   randomRange(10); // => 1
   randomRange(10); // => 0 */ 
   
-  /* const includeOf = function (string, character) {
-     let string = character.include(string);
-     /* let searchTearm = character.indexOf(character);
-     return string ;
+  const includeOf = function (string, character) {
+    let Array = ["hello"]; 
+    Array = Array.includes(string,character); 
+     return Array ; 
    }; 
 
-    includeOf("Hello", "h"); // => false
+    /* includeOf("Hello", "h"); // => false
    includeOf("hello", "h"); // => true
    includeOf("hello", "a"); // => false
    includeOf("World", "r"); // => true
-   includeOf("World", "a"); // => false */ 
-   
-   
-  
- 
-
-
-
-      
+   includeOf("World", "a"); // => false */  
